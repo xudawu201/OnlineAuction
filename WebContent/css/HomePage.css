@@ -1,0 +1,278 @@
+@charset "UTF-8";
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html,body
+{
+	width: 100%;
+	height: 150%;
+	background: url(../img/123.jpg);
+}
+.HomePageTitle 
+{
+	width: 100%;
+	height: 3%;
+	background: #FAF0E6;
+}
+.HomePageTitle nav
+{
+	width: 80%;
+	height: 100%;
+/* 	background: yellow; */
+/* 	text-align:right; */
+    margin: 0 auto;
+}
+/*
+a标签为内联元素(前后两端自带换行属性)，本身没有宽高属性，
+需要转化块级元素才可以设置宽高
+div是块级元素
+*/
+.HomePageTitle nav a
+{
+	display: block;
+	width: 10%;
+	height: 100%;
+	/*background: green*/
+	float: right;/* 横向放置 */
+/* 	text-align:right; */
+/*     right:30%; */
+	text-align: center;
+	line-height: 40px;
+/* 	color: white; */
+	text-decoration: none;/*去掉有链接的下划线*/
+	cursor: pointer;/*更改鼠标为小手形式*/
+}
+
+.HomePageTitle nav a:hover
+{
+/* 	background: darkviolet; */
+}
+
+点击改变背景颜色
+.ChangeBg
+{
+	background: rgb(192,2,103);
+}
+
+.HomePageTitle2
+{
+	width: 100%;
+	height: 8%;
+/* 	background: black; */
+}
+
+.Navigation1 
+{
+	width: 100%;
+	height: 2.5%;
+	background: #F08080;
+}
+
+.Navigation1 nav
+{
+	width: 80%;
+	height: 100%;
+/* 	background: yellow; */
+/* 	text-align:right; */
+    margin: 0 auto;
+}
+
+.Navigation1 nav a
+{
+	display: block;
+	width: 10%;
+	height: 100%;
+	/*background: green*/
+	float: left;/* 横向放置 */
+	text-align: center;
+	line-height: 40px;
+/* 	color: white; */
+	text-decoration: none;/*去掉有链接的下划线*/
+	cursor: pointer;/*更改鼠标为小手形式*/
+}
+.popular
+{
+	position:relative;
+	top:33%;
+	width:100%;
+	height:20%;
+/* 	background:red; */
+}
+.PopularP1
+{   
+	position:relative;
+	top:5%;
+	font-size:30px;/* 字体大小 */
+	font-weight:bold;/* 字体加粗 */
+	text-align:center;/* 字体居中 */
+}
+.CategoryBox
+{
+	position:relative;
+	width:80%;
+	height:80%;
+	margin:2% auto;
+/* 	background:red; */
+}
+
+.CategoryBox div
+{
+	position: relative;
+	width: 20%;
+	height: 60%;
+	/*浮动靠左*/
+	float: left;
+	/*显示多出部分隐藏*/
+	overflow: hidden;
+	margin-left: 4%;
+	margin-top: 40px;
+/* 	background:black; */
+}
+
+/* .CategoryMask */
+/* { */
+/* 	position: absolute; */
+/* 	width: 110%; */
+/* 	height: 100%; */
+/* 	top: 50px; */
+/* 	margin-left: -15px; */
+/* 	background: rgba(0,0,0,0.4); */
+/* 	transform: translateY(-150px); */
+/* 	transition: all 0.2s; */
+/* 	opacity: 0; */
+/* } */
+
+.CategoryBox div img
+{
+	width: 100%;
+	height: 100%;
+	transition: all 0.2s;
+}
+
+.bookBox
+{
+	position:relative;
+/* 	top:32%; */
+	width:80%;
+	height:30%;
+	margin:35% auto;
+	/* 边框 */
+	border:1px solid #000;
+    background:#FAF0E6;
+}
+.bookBox .title
+{
+	font-size:22px;
+	font-weight:bold;/* 字体加粗 */
+}
+
+.bookBox a
+{
+	position: relative;
+	width: 20%;
+	height: 80%;
+	/*浮动靠左*/
+	float: left;
+	/*显示多出部分隐藏*/
+	overflow: hidden;
+	margin-left: 4%;
+	margin-top: 20px;
+	border:1px solid #000;
+	/* div边框阴影 */
+    box-shadow:0 0 2px #000;
+	background:white;
+/* 	去掉a标签下划线 */
+	text-decoration:none;
+	color:black;
+}
+
+.booBox a p
+{
+/* 	font-size:13.5px; */
+/* 	font-weight:bold;字体加粗 */
+}
+
+a p
+{
+	font-size:13.5px;
+	font-weight:bold;字体加粗
+}
+
+
+.bookBox a img
+{
+	width: 100%;
+	height: 80%;
+	transition: all 0.2s;
+}
+.p
+{
+	position:absolute;
+	bottom:2px;
+}
+/* stampbox */
+.stampBox
+{
+	position:absolute;
+	top:170%;
+	left:10%;
+	width:80%;
+	height:70%;
+	margin:35% auto;
+	/* 边框 */
+	border:1px solid #000;
+    background:#FAF0E6;
+}
+.stampBox .title
+{
+	font-size:22px;
+	font-weight:bold;/* 字体加粗 */
+}
+
+.stampBox a
+{
+	position: relative;
+	width: 20%;
+	height: 80%;
+	/*浮动靠左*/
+	float: left;
+	/*显示多出部分隐藏*/
+	overflow: hidden;
+	margin-left: 4%;
+	margin-top: 20px;
+	border:1px solid #000;
+	/* div边框阴影 */
+    box-shadow:0 0 2px #000;
+	background:white;
+/* 	去掉a标签下划线 */
+	text-decoration:none;
+	color:black;
+}
+
+.stampBox a p
+{
+/* 	font-size:13.5px; */
+/* 	font-weight:bold;字体加粗 */
+}
+
+a p
+{
+	font-size:13.5px;
+	font-weight:bold;字体加粗
+}
+
+
+.stampBox a img
+{
+	width: 100%;
+	height: 80%;
+	transition: all 0.2s;
+}
+.p
+{
+	position:absolute;
+	bottom:2px;
+}

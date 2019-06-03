@@ -1,0 +1,23 @@
+一.基本信息
+作者：xudawu
+时间：2019_05_05-2019_05_26
+来源：西南科技大学2019年毕业设计
+名称：网上拍卖系统设计与实现
+
+二.结构：jsp+java+dao+servlet的b/s架构的网上拍卖系统
+文件目录：auction2019_05_05
+数据库服务地址：localhost
+数据库端口：3306
+数据库字符集：UTF-8
+数据库用户名：root
+数据库密码：root
+数据库名称：auction2019_05_22
+
+三.编写环境：
+1.编译器
+Eclipse IDE for Enterprise Java Developers.
+Version: 2019-03 (4.11.0)
+2.数据库
+mysql-5.6.43-winx64
+3.服务器
+apache-tomcat-9.0.17

@@ -1,0 +1,35 @@
+body{
+    height:100%;
+    overflow:hidden; 
+    margin:0px; 
+    padding:0px;
+    background-image: url(img/bj.jpg);
+    background-size: 100%;
+}
+.parent{
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+}
+.content{
+    width: 50%;
+    height: 400px;
+    margin-left: 25%;
+    background-color: #eee;
+
+    border: 1px solid #696;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: #666 0px 0px 10px;
+    -moz-box-shadow: #666 0px 0px 10px;
+    box-shadow: #666 0px 0px 10px;
+}
+.div-title{
+    width: 100%;
+    text-align: center;
+}
+.news-title{
+    width: 60%;
+    margin-left: 20%;
+}

@@ -1,0 +1,247 @@
+/* ---------------通用------------------ */
+*{
+    margin: 0;  /* 消除默认的margin */
+    padding: 0;  /* 消除默认的padding */
+    position: relative; /* 所有标签的子标签都相对自己定位*/
+} 
+
+
+/* ------------------顶部---------------- */
+#header{
+    height: 130px;
+    /* background-color: limegreen; */
+}
+#header #top{
+    height: 100px;
+    
+}
+#header #top div{
+    width:292px;
+    position: absolute;
+    left:188px;
+    top:50%; 
+    margin-top:-30px; 
+    line-height: 60px; 
+}
+#header #top #survey {
+    
+    position: absolute;
+    right:188px;
+    bottom:10px;
+    color: rgb(140,146,152);
+    font-size:12px;
+    text-decoration:none ;
+    padding-left: 22px;
+    /* 添加背景图 
+      background:url(地址)、是否平铺、x y 背景色
+      x和y可以设置center，让背景图居中
+    */
+    background:url(../img/q-icon.png) no-repeat 0 center white;
+    
+}
+#header #top #survey:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+#header #bottom{
+    height: 30px;
+    background-color: lightgoldenrodyellow; 
+    text-align: center;
+    
+}
+#header #bottom img{
+    display: inline;
+    vertical-align: middle;
+}
+#header #bottom p{ 
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(140,146,152);
+    font-size: 15px;
+    display: inline;
+    vertical-align: middle;
+    /* padding-left: 20px; */
+    /* 添加背景图 */
+    /* background: url(../img/xx.png) no-repeat 20% center white; */
+}
+#header #bottom p a{
+    color: black;
+    text-decoration: none;
+}
+#header #bottom p a:hover{
+    text-decoration: underline;
+}
+/* ------------------中间--------------- */
+#middle{
+    height: 470px;
+    background: url(../img/bg2.png) no-repeat 16% center rgb(77,157,254);
+}
+
+#middle #login_page{
+    width:350px;
+    height: 400px;
+    background-color: white; 
+    position: absolute;
+    top:35px;
+    right: 10%;
+}
+/* 登录模块-提示模块 */
+#middle #login_page #div1{
+    
+    
+    height: 40px;
+    background-color: rgb(255,246,236);
+    text-align: center;
+    line-height: 40px;
+}
+#middle #login_page #div1 img{
+    display: inline;
+    vertical-align: middle;
+}
+#middle #login_page #div1 p{
+    display: inline;
+    vertical-align: middle;
+    font-size: 12px;
+}
+/* 登录模块-选择模块 */
+#middle #login_page #div2{
+    
+    height: 60px;
+    /* background-color: cadetblue; */
+}
+#middle #login_page #div2 button{
+    width:48%;
+    height: 100%;
+    border-style: none;
+    font-size: 20px;
+    font-weight: 100;
+    /* font-family: "黑体"; */
+    color: rgb(60,60,60);
+    background-color: white;
+}
+#middle #login_page #div2 button:focus{
+    color: red;
+    outline: 0;
+}
+#middle #login_page #div3{
+    
+    height: 250px;
+    /* background-color:limegreen; */
+    border-top:1px solid rgba(220,220,220,0.6);
+    border-bottom:1px solid rgba(220,220,220,0.6);
+    
+}
+#middle #login_page #div3 div{
+    width: 300px;
+    margin-top:20px;
+    margin-left:25px;
+    margin-top:23px;
+    height: 40px;
+    border: 1px solid rgba(120,120,120,0.6);
+}
+#middle #login_page #div3 #usrname{
+    margin-top: 35px;
+}
+#middle #login_page #div3 div img{
+    width: 40px;
+    height: 40px;
+    float:left
+}
+#middle #login_page #div3 div input{
+    width: 250px;
+    height: 40px;
+    border: 0;
+    float: left;
+    border-left: 1px solid rgba(120,120,120,0.6);
+    padding-left: 5px;
+}
+#middle #login_page #div3 a{
+    position: absolute;
+    right: 25px;
+    margin-top: 20px;
+    color: rgb(150,150,150);
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+#middle #login_page #div3 a:hover{
+    color: red;
+    text-decoration:underline;
+}
+#middle #login_page #div3 button{
+    width: 300px;
+    height: 30px;
+    margin-left: 25px;
+    position: absolute;
+    bottom:20px;
+    border:0;
+    background-color: rgb(219,34,36);
+    color: white;
+    font-size:20px;
+    cursor:pointer;
+    
+}
+
+#middle #login_page #div4{
+    
+    height: 50px;
+    /* background-color: gold; */
+    line-height: 50px;
+    margin: 0 25px;
+    overflow: hidden;
+    
+}
+#middle #login_page #div4 a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#middle #login_page #div4 #a1{
+    /* margin-left: 25px; */
+    padding-left: 25px;
+    margin-right: 25px;
+    background: url(../img/qq.png) no-repeat 0 center white;
+    
+}
+#middle #login_page #div4 #a2{
+    /* margin-left: 25px; */
+    padding-left: 25px;
+    background: url(../img/weixin.png) no-repeat 0 center white;
+    
+}
+#middle #login_page #div4 #a3{
+    position: absolute;
+    right: 0;
+    padding-left: 25px;
+    background: url(../img/right.png) no-repeat 0 center white;
+        
+}
+/* -----------------底部----------------- */
+#footer{
+    height: 100px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 12px;
+    color: rgb(125,125,125);
+}
+#footer div{
+    height: 100px;
+    
+}
+#footer div a{
+    text-decoration: none;
+    margin: 0 20px; 
+    
+}
+#footer p{
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    
+}
+#footer a:hover{
+    text-decoration: underline;
+    color: red;
+}
